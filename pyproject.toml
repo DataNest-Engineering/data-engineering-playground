@@ -1,0 +1,11 @@
+[project]
+name = "dataplay"
+version = "0.0.1"
+description = "a package for data preparation"
+authors = [{name = "data engineers", email = ""}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
